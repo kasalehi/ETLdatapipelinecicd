@@ -2,8 +2,9 @@ name: run app
 
 on:
    push:
-     -master 
-     -main
+    branches:
+       -master 
+       -main
 jobs:
     run app: ubuntu-latest
     steps:
