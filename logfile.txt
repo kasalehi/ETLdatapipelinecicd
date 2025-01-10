@@ -1,0 +1,7 @@
+2025-01-10 15:21:52.984106 - Error Expected file path name or file-like object, got <class 'bytes'> type at 2025-01-10 15:21:52.983105 
+2025-01-10 15:22:53.606557 - Error Expected file path name or file-like object, got <class 'bytes'> type at 2025-01-10 15:22:53.606557 
+2025-01-10 15:24:02.570278 - Error Expected file path name or file-like object, got <class 'bytes'> type at 2025-01-10 15:24:02.569274 
+2025-01-10 15:26:37.187506 - Error Expected file path name or file-like object, got <class 'bytes'> type at 2025-01-10 15:26:37.187506 
+2025-01-10 15:26:59.549738 - Error Expected file path name or file-like object, got <class 'bytes'> type at 2025-01-10 15:26:59.548756 
+2025-01-10 15:27:19.333281 - Error Expected file path name or file-like object, got <class 'bytes'> type at 2025-01-10 15:27:19.333281 
+2025-01-10 15:31:17.787114 - ETL job completed at 2025-01-10 15:31:17.621324 and data saved to transformed_data.csv 
