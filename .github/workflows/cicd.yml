@@ -19,7 +19,7 @@ jobs:
           python-version: '3.9'
       
       - name: Install dependencies
-        run: pip install pandas
+        run: pip install pandas requests datetime
       
       - name: Run app
         run: python app.py
