@@ -1,23 +1,25 @@
-name: run app 
+name: run app
 
 on:
-   push:
+  push:
     branches:
-       -master 
-       -main
+      - master
+      - main
+
 jobs:
-    run app: ubuntu-latest
+  run-app:
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-    uses: actions/checkout@v2
-    -name: Install python
-    uses: actions/setup-python@v4
-    with:
-       python-version: '3.12'
-    - name: Install dependencies
-    run: pip install pandas
-    - name: Run app
-    run: python app.py
-
-
-   
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: pip install pandas
+      
+      - name: Run app
+        run: python app.py
